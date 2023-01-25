@@ -1,7 +1,7 @@
 ﻿using System;
 namespace praticaProjeto
 {
-    public class HelpInterface
+    public class MenuHandler
     {
         public static void mainMenu()
         {
