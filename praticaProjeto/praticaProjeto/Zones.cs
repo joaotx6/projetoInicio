@@ -8,18 +8,18 @@ namespace praticaProjeto
         private int capacity;
         private string[] parkingSlots;
 
-        public Zones(double hourRate, int duration, int capacity, string[] parkingSlots)
+        public Zones(double hourRate, int duration, int capacity /*string[] parkingSlots*/)
         {
             this.hourRate = hourRate;
             this.duration = duration;
             this.capacity = capacity;
-            this.parkingSlots = parkingSlots;
+            //this.parkingSlots = parkingSlots;
         }
 
         public double HourRate { get => hourRate; set => hourRate = value; }
         public int Duration { get => duration; set => duration = value; }
         public int Capacity { get => capacity; set => capacity = value; }
-        public string[] ParkingSlots { get => parkingSlots; set => parkingSlots = value; }
+        //public string[] ParkingSlots { get => parkingSlots; set => parkingSlots = value; }
 
 
         public void getZoneInfo()

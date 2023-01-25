@@ -9,9 +9,15 @@ class Program
         int menuLevel = 1;
 
         //inicializar zonas
-        parkingZones zone1 = new parkingZones(45, 1.15, new Random().Next(99)+1);
+        Zones zone1 = new Zones(1.15, 45, new Random().Next(99)+1);
+        Zones zone2 = new Zones(1.15, 45, new Random().Next(99) + 1);
+        Zones zone3 = new Zones(1.15, 45, new Random().Next(99) + 1);
 
-        HelpInterface.mainMenu
+        MenuHandler menu = new MenuHandler();
+
+        menu.
+        
+
     }
 }
 
